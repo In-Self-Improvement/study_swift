@@ -8,6 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State
+    private var isTrue: Bool = false;
+    var body: some View {
+        VStack{
+            increaseView().padding(isTrue ? 50 : 0).background(isTrue ? Color(.blue) : Color(.white)).foregroundColor(isTrue ? .red : .black)
+            increaseView()
+            increaseView()
+        }.onTapGesture{self.isTrue.toggle()}
+    }
+}
+
+struct increaseView: View {
     var body: some View {
         HStack{
             Text("1!").fontWeight(.bold).font(.system(size:50))
