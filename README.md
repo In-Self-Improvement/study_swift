@@ -18,7 +18,11 @@ struct ContentView: View {
 ```
 오늘 한 것
 클릭하면 배경색, 패딩 값 변하는 것
+
+
 오늘 배운 것 State
 변수 선언
-background Color 
+background Color
+애니메이션 효과 withAnimation{} 
+클릭하면 값 변하게 하는것 (.toggle())
 
