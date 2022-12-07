@@ -15,7 +15,10 @@ struct ContentView: View {
             increaseView().padding(isTrue ? 50 : 0).background(isTrue ? Color(.blue) : Color(.white)).foregroundColor(isTrue ? .red : .black)
             increaseView()
             increaseView()
-        }.onTapGesture{self.isTrue.toggle()}
+        }.onTapGesture{
+            withAnimation{
+            self.isTrue.toggle()
+            }}
     }
 }
 
