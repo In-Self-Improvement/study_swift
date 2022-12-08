@@ -44,7 +44,7 @@
 		F71B5E03292F82D9007E3730 /* study_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = study_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71B5E07292F82D9007E3730 /* study_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = study_swiftUITests.swift; sourceTree = "<group>"; };
 		F71B5E09292F82D9007E3730 /* study_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = study_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F72B53D82940E1C10026B326 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F72B53D92941BBA90026B326 /* TIL */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TIL; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 		F71B5DE0292F82D8007E3730 = {
 			isa = PBXGroup;
 			children = (
-				F72B53D82940E1C10026B326 /* README.md */,
+				F72B53D92941BBA90026B326 /* TIL */,
 				F71B5DEB292F82D8007E3730 /* study_swift */,
 				F71B5DFC292F82D9007E3730 /* study_swiftTests */,
 				F71B5E06292F82D9007E3730 /* study_swiftUITests */,
